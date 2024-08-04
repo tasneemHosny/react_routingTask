@@ -5,7 +5,7 @@ function Layout() {
     return ( 
         <>
         <Navbar></Navbar>
-    m   <div className="position-relative">
+        <div className="position-relative">
         <Outlet></Outlet>
         <Footer></Footer>
     </div>

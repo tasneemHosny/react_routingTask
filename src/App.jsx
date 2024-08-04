@@ -10,6 +10,7 @@ function App() {
   let router=createBrowserRouter(
     [{path:"/",element:<Layout></Layout>,children:[
       {path:"start_framework" , element:<Start_framework></Start_framework>},
+      {path:"/" , element:<Start_framework></Start_framework>},
       {path:"about",element:<About></About>},
       {path:"portfolio",element:<Portfolio></Portfolio>},
       {path:"contact",element:<Contact></Contact>}
